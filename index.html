@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Timer</title>
+        <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        
+        <div class="main">
+            <div class="container">
+                <h1>This is a Timer WebApp</h1>
+    
+                <div class="form-input">
+                    <input type="datetime-local" id="dtinput">
+                    <button id="submit" onclick="exec()">Submit</button>
+                </div>
+    
+                <div class="output">
+    
+                    <div class="day card">
+                        <div class="value" id="dvalue">
+                            0
+                        </div>
+                        <div class="lable">
+                            Days
+                        </div>
+                    </div>
+    
+                    <div class="hour card">
+                        <div class="value" id="hvalue"> 
+                            0
+                        </div>
+                        <div class="lable">
+                            Hours
+                        </div>
+                    </div>
+    
+                    <div class="minute card">
+                        <div class="value" id="mvalue"> 
+                            0
+                        </div>
+                        <div class="lable">
+                            Minutes
+                        </div>
+                    </div>
+    
+                    <div class="second card">
+                        <div class="value" id="svalue">
+                            0
+                        </div>
+                        <div class="lable">
+                            Seconds
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+
+        <script src="./app.js"></script>
+    </body>
+</html>

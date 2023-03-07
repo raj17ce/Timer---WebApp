@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: #1e1e1e;
+    color: #FFFFFF;
+    height: 100vh;
+}
+
+.main {
+    padding-block: 7rem;
+}
+
+.container {
+    padding-top: 2rem;
+    max-width: 1300px;
+    margin-inline: auto;
+}
+
+h1 {
+    font-weight: 700;
+    text-align: center;
+    color: blueviolet;
+}
+
+.form-input {
+    text-align: center;
+    margin-block: 2rem;
+}
+
+.form-input input,button {
+    margin-block: 1rem;
+    margin-inline: 0.5rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.25rem;
+    font-weight: 600;
+}
+
+.form-input button:hover {
+    cursor: pointer;
+}
+
+.output {
+    margin-inline: auto;
+    width: 70%;
+    display: flex;
+    padding: 2rem;
+    background: #252526;
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card {
+    background: #1e1e1e;
+    height: 150px;
+    width: 150px;
+    border-radius: 1rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    overflow: hidden;
+}
+
+.value {
+    text-align: center;
+}
+
+.lable {
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 1.3rem;
+}
